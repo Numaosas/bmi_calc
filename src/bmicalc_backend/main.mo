@@ -3,11 +3,11 @@ actor BMICalculator {
   var height : Float = 0.0;
   var weight : Float = 0.0;
 
-  public func setHeight(h : Float) : async () {
+  public func setHeightinM(h : Float) : async () {
     height := h;
   };
 
-  public func setWeight(w : Float) : async () {
+  public func setWeightinKg(w : Float) : async () {
     weight := w;
   };
 
